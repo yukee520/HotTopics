@@ -1,4 +1,4 @@
-package com.rntest
+package com.yukee520.hottopics
 
 import android.os.Bundle
 import com.facebook.react.ReactActivity
@@ -16,7 +16,7 @@ class MainActivity : ReactActivity() {
     super.onCreate(null)
   }
 
-  override fun getMainComponentName(): String = "rn-blank-template"
+  override fun getMainComponentName(): String = "HotTopics"
 
   override fun createReactActivityDelegate(): ReactActivityDelegate =
     DefaultReactActivityDelegate(this, mainComponentName, fabricEnabled)
